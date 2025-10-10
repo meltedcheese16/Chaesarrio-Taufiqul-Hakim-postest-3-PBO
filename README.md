@@ -93,3 +93,17 @@ Tujuan program ini adalah membantu pengguna untuk mencatat dan mengelola hasil p
 <img width="786" height="120" alt="image" src="https://github.com/user-attachments/assets/e64aae9f-42f0-4b9e-9e30-ec8a4fc6a763" />
 
 <img width="800" height="126" alt="image" src="https://github.com/user-attachments/assets/d96d8267-b8bf-4fb7-a171-715fbc0b7473" />
+
+
+## Penerapan JDBC & ORM
+
+- **JDBC**
+  - Lokasi: `manager/PanenJDBC.java`
+  - Digunakan untuk mengakses database secara manual menggunakan query SQL (`SELECT`, `INSERT`, `UPDATE`, `DELETE`).
+
+- **ORM (Hibernate)**
+  - Lokasi: `manager/PanenORM.java` dan `entity/*.java`
+  - Digunakan untuk mengelola data melalui entity class (`UmbiEntity`, `DaunEntity`) tanpa menulis SQL secara langsung.
+
+
+
